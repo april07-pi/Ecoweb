@@ -1,4 +1,11 @@
 # Ecoweb
+npm i @vercel/analytics
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/yourusername/yourrepo.git
+git push -u origin main
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
